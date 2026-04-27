@@ -229,3 +229,11 @@
 &usb_qmpphy_out {
 	remote-endpoint = <&pm4125_ss_in>;
 };
+
+&gpu {
+	status = "okay";
+};
+
+&gpu_zap_shader {
+	firmware-name = "qcom/shikra/a704_zap.mbn";
+};

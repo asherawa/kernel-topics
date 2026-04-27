@@ -135,3 +135,11 @@
 
 	status = "okay";
 };
+
+&gpu {
+	status = "okay";
+};
+
+&gpu_zap_shader {
+	firmware-name = "qcom/shikra/a704_zap.mbn";
+};
